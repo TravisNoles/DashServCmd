@@ -1,5 +1,14 @@
 # DashServCmd
 
+Contributing
+-------------
+
+Request to be added to our trello board: https://trello.com/b/liOZfwB8/dashservcmd
+Make sure to document your changes and describe each commit to be pushed. What exactly it does, what it's suppossed to do, or what it the commit actually fixes incase it changes something and if I need to update the documentation.
+
+
+
+
 Upcoming Features
 --------
 
