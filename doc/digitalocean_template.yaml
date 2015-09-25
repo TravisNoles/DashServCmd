@@ -1,0 +1,50 @@
+#DashServCMD Server Template
+
+# This template will select the best available server based on the values below.
+# When you initialize the file via the command, dashservcmd will run and then
+# populate the values into the app's configuration file. It will choose the
+# best available server based on your answers to the below.  
+
+#Providers available: digitalocean
+provider: "digitalocean"
+
+#Hostname is the name of the server, can also be a domain name, just something
+#to identify your server.
+hostname: "example_droplet"
+
+#Locations: New York, Amsterdam, San Francisco, Singapore, London, Frankfurt, Toronto
+location: "New York"
+
+#CPU Cores: 1-20
+CPU: 1
+
+#RAM (Memory): 512MB, 1GB, 2GB, 4GB, 8GB, 16GB, 32GB, 48GB, 64GB
+RAM: "512mb"
+
+#20GB-64GB
+disk: "20GB"
+
+#Operating System: Linux, Debian, FreeBSD, Fedora, CoreOS, CentOS
+OS: ""
+
+#Applications to install to your server, can select multiple applications!
+#All apps must be defined in your '/apps' directory in the root of dashservcmd.
+apps: "tshock_server"
+
+ipv6: False
+
+backups: False
+
+image: ""
+
+ssh_keys: []
+backups: False #Boolean
+ipv6: False #Boolean
+private_networking: False
+user_data: ""
+
+
+
+
+#Do not alter the below settings.
+config_ver: 1
