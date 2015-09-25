@@ -33,8 +33,9 @@ if arguments['init'] == True:
     with open(arguments['FILE'], 'r') as stream:
         print (yaml.load(stream))
     
-if arguments['authorize'] == True && arguments['digitalocean'] == True
+if arguments['authorize'] == True and arguments['digitalocean'] == True:
     
+    print ('Not implemented')
     #Read auth file.
     
     
