@@ -23,7 +23,7 @@ Examples:
 """
 
 from docopt import docopt
-from lib.base import Auth
+from providers.digitalocean import Auth
 
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='DashServ 0.1.0')
