@@ -22,21 +22,24 @@ Examples:
 """
 
 from docopt import docopt
-import yaml
-import providers.digitalocean
+from lib.base import Auth
+
 
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='DashServ 0.1.0')
-    print(arguments)
+    print(arguments) #Debug line - prints docopt arguments
 
 if arguments['init'] == True:
     with open(arguments['FILE'], 'r') as stream:
         print (yaml.load(stream))
     
-if arguments['authorize'] == True and arguments['digitalocean'] == True:
+if arguments['authorize'] == True:
+    api_key = Auth.getAuthToken()
+    print (api_key)
     
-    print ('Not implemented')
-    #Read auth file.
+    # print(_authfile["apikeys"][arguments["PROVIDER"]]) #debug
+        
+        
     
     
     
