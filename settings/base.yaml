@@ -1,0 +1,14 @@
+#Loaded applications, set the app to false and it won't be loaded (or accessible)
+general:
+    debug: True
+
+applications:
+    ark_server: True
+    steamcmd: True
+    tshock_server: True
+
+
+api_keys:
+    digitalocean: ""
+
+
