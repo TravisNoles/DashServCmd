@@ -1,21 +1,34 @@
 # DashServCmd
 
-Current development takes place in the development branch: https://github.com/TravisNoles/DashServCmd/tree/development
-
+Current Development (v0.1.0): https://github.com/TravisNoles/DashServCmd/tree/development
 
 Contributing
 -------------
 
-Request to be added to our trello board: https://trello.com/b/liOZfwB8/dashservcmd
-Make sure to document your changes and describe each commit to be pushed. What exactly it does, what it's suppossed to do, or what it the commit actually fixes incase it changes something and if I need to update the documentation.
+* Document changes inside your commits.
+* Commit frequently with each change.
 
 
-
-
-Upcoming Features
+Roadmap
 --------
 
+v0.1.0
+* DigitalOcean Droplet Management
+* Minecraft Server Management
 * Terraria Server Management
 * Ark Server Management
-* Minecraft Server Management
-* DigitalOcean System Management
+* Basic webGUI with Flask.
+
+v0.1.1-v0.1.9
+* Feature freeze, bug fixes only.
+
+v0.2.0
+
+
+v1.0.0
+* Stable release
+* Command line inside GUI
+
+
+
+
