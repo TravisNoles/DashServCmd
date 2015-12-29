@@ -1,15 +1,20 @@
 # DashServCmd v0.1.0-development
 
+<<<<<<< HEAD
 DashServCMD is an all in one application that aims to be easy-to-use with a
 user friendly interface. This application is constantly evolving at this
 point in time.
 
 Disclaimer: Unstable development branch, use at your own risk.
 
+=======
+Current Development (v0.1.0): https://github.com/TravisNoles/DashServCmd/tree/development
+>>>>>>> 393b08f5436ced18dd86f7f7225f9372db9544e7
 
 Contributing
 -------------
 
+<<<<<<< HEAD
 Contributing will come later, after the first version is released.
 
 
@@ -39,3 +44,32 @@ ChangeLog
 ----------
 
 v0.1.0-dev
+=======
+* Document changes inside your commits.
+* Commit frequently with each change.
+
+
+Roadmap
+--------
+
+v0.1.0
+* DigitalOcean Droplet Management
+* Minecraft Server Management
+* Terraria Server Management
+* Ark Server Management
+* Basic webGUI with Flask.
+
+v0.1.1-v0.1.9
+* Feature freeze, bug fixes only.
+
+v0.2.0
+
+
+v1.0.0
+* Stable release
+* Command line inside GUI
+
+
+
+
+>>>>>>> 393b08f5436ced18dd86f7f7225f9372db9544e7
