@@ -6,9 +6,7 @@ applications:
     ark_server: True
     steamcmd: True
     tshock_server: True
-
+    furcadia: True
 
 api_keys:
     digitalocean: ""
-
-
