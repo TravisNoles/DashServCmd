@@ -1,7 +1,7 @@
-"""DashServ v0.1.0 (alpha-unstable)
+"""DashServ v0.1.0 (development)
 Usage:
     dashserv.py init <server_file_name>
-    dashserv.py authorize PROVIDER
+    dashserv.py use-gui
     dashserv.py start <hostname>
     dashserv.py stop <hostname>
     dashserv.py destroy <hostname>
@@ -30,6 +30,11 @@ if __name__ == '__main__':
 #Init will parse the server script and change values to the best available vals
 if arguments['init'] == True:
     print ("INFO: Initializing Server...")
+
+if arguments['use-gui'] == True:
+    
+
+
 
 #Verify authorization, if not authed, will ask servers to provide auth key
 if arguments['authorize'] == True:

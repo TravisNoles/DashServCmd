@@ -1,6 +1,5 @@
 DigitalOcean:
     api_key: ""
-    debug: True
     defaults: #Uses defaults if not specified in server initconfig file.
         #Uses defaults if not specified in server init config.
         #Special Variables you can use:
@@ -15,9 +14,9 @@ DigitalOcean:
         ipv6: False #Boolean
         private_networking: False
         user_data: ""
-    
-    
-    
+
+
+
     Servers: #Keeps track of all server files that were initialized.
         example_digitalocean:
             provider: "digitalocean"
@@ -35,12 +34,12 @@ DigitalOcean:
                 backup_ids: [ ]
                 snapshot_ids: [ ]
                 features: [ ]
-                region: 
+                region:
                 image:
                 size:
                 size_slug:
                 networks:
-                kernel: 
+                kernel:
                 next_backup_window:
             user_values:
                 name: ""
@@ -52,5 +51,3 @@ DigitalOcean:
                 ipv6: False #Boolean
                 private_networking: False
                 user_data: ""
-                
-                
