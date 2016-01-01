@@ -1,0 +1,10 @@
+#Configuration file for ark.
+
+host_ip: "127.0.0.1" #Machine ark is being hosted on.
+
+
+# Ark Specific Parameters
+sessionName: "MyArkServer" #Session name appears on the host list.
+maxPlayers: 50
+PVE: True
+PVP: False

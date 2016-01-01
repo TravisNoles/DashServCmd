@@ -1,30 +1,8 @@
-
-
-
-
-
-
-
-
-#http://ark.gamepedia.com/Dedicated_Server_Setup#Prerequisites
-
-
-
-#Requirements: 6GB of RAM, uses > 3.2GB with no clients connected.
-#For 64-bit: lib32gcc1 needs to be installed
-
-# 1. Check Requirements:
-    # A) Check memory requirements (meets atleast 6GB of RAM.
-    # B) If 64-bit, install lib32gcc1
-    # C) If debian -> Skip to debian
-
-
-# 2 Debian Install
-    # A)
-
-
-
-
+#ark_server setup file.
+#Required dashservcmd apps: steamcmd
+#Required OS: Debian 8 (only for now.)
+#Required system apps: lib32gcc1
+#Hardware Requirements (2 Players): >4GB RAM, 64bit processor,
 
 
 

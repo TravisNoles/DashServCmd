@@ -1,12 +1,14 @@
 #Loaded applications, set the app to false and it won't be loaded (or accessible)
 general:
-    debug: True
+    debug: True #Show or hide debug messages.
 
+# You can enable/disable apps here.
 applications:
     ark_server: True
     steamcmd: True
     tshock_server: True
     furcadia: True
 
+#Authentication tokens.
 api_keys:
     digitalocean: ""
