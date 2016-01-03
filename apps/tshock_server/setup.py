@@ -1,1 +1,3 @@
-__author__ = 'travi'
+import os
+
+#Sets up tshock server.
