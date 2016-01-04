@@ -1,20 +1,50 @@
-# Main ark server management
+from valve.source.rcon import RCON #Mostly for converting SteamIDs
 
 class ArkServer:
 
 
-    def stop():
+    def list_players_playing():
+
+    def world_set_time(time):
+
+    def broadcast(message):
 
 
-    def start():
+    def set_motd(message):
+
+    def show_motd():
+
+    def player_kick(player):
+
+    def player_banish(player):
+
+    def player_unbanish(player):
 
 
-    def restart():
+    def world_save(arkworld):
 
 
-    def backup():
+    def world_stop(arkworld):
+
+        #Check if any players are on the current ark.
+        #Save the current ark.
+
+    def world_start(arkworld):
+        #Check for config to apply.
 
 
-    def restore():
 
-    
+    def world_restart(arkworld):
+
+
+    def world_backup(arkworld):
+
+        #Get current date to store on file.
+
+
+
+    def world_restore(arkworld, version=most_recent):
+
+        #If most_recent then restore.
+
+        #Specify version, restore that version.

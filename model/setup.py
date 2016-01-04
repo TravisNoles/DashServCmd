@@ -1,0 +1,1 @@
+#Initalizes new database.

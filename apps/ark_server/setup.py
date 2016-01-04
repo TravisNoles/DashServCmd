@@ -7,10 +7,9 @@ import os
 #Hardware Requirements (2 Players): >4GB RAM, 64bit processor,
 
 
-
 #Check requirements.
     def check_requirements():
-        
+
 
 
 

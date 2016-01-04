@@ -1,3 +1,6 @@
+# Configuration is going to be deleted / moved / optimized.
+
+
 DigitalOcean:
     api_key: ""
     defaults: #Uses defaults if not specified in server initconfig file.

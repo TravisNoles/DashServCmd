@@ -12,3 +12,7 @@ applications:
 #Authentication tokens.
 api_keys:
     digitalocean: ""
+
+
+#Docker Settings
+docker:

@@ -1,23 +1,31 @@
 #Configuration file for ark.
 
+general:
+  start_at_boot: true
+  auto_update: true
+  install_directory: "/home/user"
+  rcon: true #REQUIRED
+
 #Networking Settings
 network:
   host_ip: "127.0.0.1"
-  host_port: 7777
 
-# Ark Specific Parameters
+players:
+  admins: "SteamName, SteamName2"
+  whitelist: "SteamName, SteamName2"
+  blacklist: "Tr0ll523" #Banned players
 
-server_name: "MyArkServer" #Appears on the public host list.
-admin_users: "SteamName"
-admin_password: "changeme"
-players_max: 50
-PVE: true
-PVP: false
+session:
+  name: "MyDashServer"
+  port: 7777
+  players_max: 50
+  admin_password: "changeme"
+  PVE: true
+  PVP: false
 
-automatic_save: true
-automatic_save_time: 15 #In minutes, will save every 15 minutes.
-automatic_backup: false
-automatic_backup_path: "~/backup/ark"
-automatic_backup_time: 60 #In minutes
-automatic_update: false
-start_at_boot: false
+arkworld:
+  auto_save: true
+    frequency: 15 #minutes
+  auto_backup: true
+    frequency: 60 #minutes
+    path: "/home/you/ark_server/backup"
