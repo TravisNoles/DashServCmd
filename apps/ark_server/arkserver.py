@@ -1,10 +1,21 @@
-from valve.source.rcon import RCON #Mostly for converting SteamIDs
 
 class ArkServer:
 
+    def list_players():
 
-    def list_players_playing():
 
+    def world_start(arkworld):
+        #Check for config to apply.
+
+
+
+    list_players_playing()
+
+
+
+
+
+"""
     def world_set_time(time):
 
     def broadcast(message):
@@ -12,7 +23,7 @@ class ArkServer:
 
     def set_motd(message):
 
-    def show_motd():
+    def show_motd(duration):
 
     def player_kick(player):
 
@@ -29,11 +40,6 @@ class ArkServer:
         #Check if any players are on the current ark.
         #Save the current ark.
 
-    def world_start(arkworld):
-        #Check for config to apply.
-
-
-
     def world_restart(arkworld):
 
 
@@ -48,3 +54,4 @@ class ArkServer:
         #If most_recent then restore.
 
         #Specify version, restore that version.
+"""
