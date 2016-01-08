@@ -1,0 +1,32 @@
+DashServCMD Basics
+v0.1.0
+
+
+
+
+
+Application Creation
+
+  Applications in dashservcmd have a very basic "init system," the file
+  is called, "applications.py" This python file manages, starts, stops
+  and launches applications for dashservcmd.
+
+  Applications are containerized with docker. This allows much flexibility,
+  allowing the apps to even run outside dashservcmd. Dashservcmd is just
+  a wrapper that allows for running your apps easier.
+
+
+Application Lifecycle
+
+
+Example Dockerfile
+
+  https://github.com/phusion/baseimage-docker
+
+
+Application Files
+
+  /app_name.py
+  /config.yaml
+  /docker/Dockerfile
+  /docker/app_name.sh - Runtime file (runs app inside docker.)
