@@ -1,9 +1,12 @@
 DashServCMD Basics
 v0.1.0
 
+Overview
 
-
-
+  1) Launch application via dashserv.
+  2) DSC launches application via docker-py.
+  3) Docker runs .sh (app run file) to start app.
+  
 
 Application Creation
 

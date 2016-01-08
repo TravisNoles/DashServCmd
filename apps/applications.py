@@ -1,28 +1,46 @@
 #Manages all applications.
 import json
 
-class applications():
+class application:
     """Manages applications, starts/stops/pauses apps,
     returns results in json format. """
 
-    def listall():
-        """Returns in json format all currently installed applications that are in the /apps subprocess
-        directory. """
-
-
-    def install(app_name):
-        """Attempts to install and setup an application. Returns results in json. """
-
-        result =
+    def __init__(self, name):
+        self.name = name
+        self.running = False
+        self.enabled = False
+        self.result =
         {
+            "result_code": 0
             "message": "Unknown Error",
-            "details": "default_error"
+            "details": "default_error",
         }
 
-        #Read application config file.
 
-        
+    def update(self, name):
+        """Updates application."""
 
+
+
+        return results
+
+    def install(self, name):
+        """ Attempts to run the application with provided docker file,
+        sets/gets settings from configuration file, runs commands inside
+        container, prepares application container for first use. Runs app's
+        setup.py file inside the docker folder, runs the app for the first time
+        while setting any required settings that is provided in the config
+        file. If there is any errors while running this command it will display
+        to the user depending on the error.
+
+        Arguments: name = app_name
+        """
+
+
+        #Read (parse) application config file.
+
+
+        # Set settings and run docker file.
 
 
         return result
@@ -30,25 +48,27 @@ class applications():
 
 
     def start(app_name):
-        """Start the app."""
+        """Starts the application. Application must be already setup(installed.)
+        """
 
-        result =
-        {
-
-        }
-
-        return result
-
-    def stop(app_name)
+        #Check to see if the app has been setup, if so continue to run.
 
 
 
         return result
 
-    def uninstall(app_name):
+    def stop(self, app_name):
+        """Stops the app safely via Docker."""
+
+
+        return result
+
+    def uninstall(self, name):
         """Removes an application."""
-        result = 0
 
+        return result
+
+    def sendcmd(self, name):
 
 
         return result
