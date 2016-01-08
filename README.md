@@ -3,6 +3,8 @@
 DashServCMD is an application wrapper for management of all your applications. Aims
 to be user friendly, easy to use, modular, and keeps your system clean of application junk files.
 
+Note: Development version, doesn't run or work yet. Highly unstable, working to release of v0.1.0
+
 Requirements
 ---------
 
@@ -13,8 +15,8 @@ Docker
 Installation & Usage
 ------------
 
-1) Run dashservcli.py or dashservgui.py
-2) Follow instructions.
+* Run dashservcli.py or dashservgui.py
+* Follow instructions.
 
 
 Contributing
