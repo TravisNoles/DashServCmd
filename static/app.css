@@ -1,0 +1,41 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+nav
+{
+  background-color: #452b3f;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li
+{
+  /* list in a row */
+  color: #452b3f;
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav > ul > li > a
+{
+  color: #452b3f;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: #452b3f;
+}
