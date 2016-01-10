@@ -7,17 +7,17 @@ app = Flask(__name__)
 def gotoIndex():
     return render_template('base.html')
 
-@app.route('/app/manager')
+@app.route('/app')
 def viewAppManager():
-    return
+    return render_template('applications.html')
 
-@app.route('/app/install/<app_name>')
-def installApp(app_name):
-    return "Installing %s" % app_name
+@app.route('/app/<app_name>/<action>')
+def appAction(app_name, action):
+    return "Commiting %s" % app_name
 
 @app.route('/settings')
 def viewSettings():
-    return "Not implemented."
+    return render_template('settings.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug = True)

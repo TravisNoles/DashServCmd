@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Thanks to Adam Bray (adam-bray.com) for the awesome navigation menu tut! -->
+  <head>
+    <title>DashServCmd v0.1.0 - {% block page_title %}Dashboard{% endblock page_title %} </title>
 
-  <header>
-    {% block header %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/uikit.gradient.css') }}" />
+    <script src="{{ url_for('static', filename='js/uikit.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.js') }}"></script>
+  </head>
 
-    <div id="logo" class="menuBarTop">
-      <h1>DashServCMD</h1>
-      <div id="navToggle"><a href="#">Menu</a></div>
-    </div>
+  <body>
 
-    <nav>
-      <ul>
-        <li><a href="#">Dashboard</a>
-        <li><a href="#">Applications</a>
+    <nav id='top-bar' class="uk-navbar" data-uk-sticky>
+      <a href="" class="uk-navbar-brand">DashServ</a>
+      <div class="uk-navbar-content uk-margin-small">
+        <ul class="uk-navbar-nav">
+            <li class="uk-active">
+              <a href="/">Dash</a>
+            </li>
 
-          <nav>
-            <ul>
-              <li><a href="#">New</a>
-              <li><a href="#">Manage</a>
-            </ul>
-          </nav>
+            <li>
+              <a href="/app">Applications</a>
+            </li>
 
-        <li><a href="#">Settings</a>
-      </ul>
+            <li>
+              <a href="/settings">Settings</a>
+            </li>
+          </ul>
+      </div>
 
+          <div class="uk-navbar-content uk-margin-right">
+            <form class="uk-form uk-search uk-display-inline-block" data-uk-search>
+              <input class="uk-searchfield" type="search" placeholder="">
+              <button class="uk-button uk-button-primary">Search</button>
+            </form>
+          </div>
 
+      </nav>
 
-
-
-
-    </nav>
-
-
-      {% endblock header %}
-    </header>
-
-
-
-    <body>
-
-
-
-
-    </body>
+    {% block content %}
+    {% endblock content %}
 
 
 
-</html>
+
+  </body>
 
 
 
