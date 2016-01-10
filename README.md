@@ -1,39 +1,26 @@
-# DashServCmd v0.1.0-development
+# DashServCmd v0.1.0
 
 DashServCMD is an application wrapper for management of all your applications. Aims
-to be user friendly, easy to use, and modular.
+to be user friendly, easy to use, modular, and keeps your system clean of application junk files.
 
-Disclaimer: Unstable development branch, use at your own risk.
+Requirements
+---------
+
+Python3.x
+Docker
+
+
+Installation & Usage
+------------
+
+1) Run dashservcli.py or dashservgui.py
+2) Follow instructions.
 
 
 Contributing
 -------------
 
-Contributions to the project will be accepted later. Any suggestions or
-improvements can be directed towards the project owner.
-
-
->>>>>>> ebe9b59ac44a4c44980f0279a10167c0e3ab692e
-
-Upcoming Features
---------
-
-
-Installation
-------------
-
-Note: Setup.py file to come later, and will be uploaded onto Pypy repos.
-
-1) Run dashservcli.py or dashservgui.py
-2) Follow instructions.
-
-That's it.
-
-Usage
--------
-
-If you have any questions regarding usage, please see the wiki or you can
-optionally contact me. Please submit any bug reports via github issue tracker.
+Suggestions and feature requests are accepted.
 
 
 Version Information
@@ -45,3 +32,24 @@ v0.1.0
 * Apps are containerized with Docker.
 * Basic WebGUI and CLI interfaces.
 * Basic Docker support for apps.
+
+
+v0.1.1 - v0.1.9
+
+Feature freeze, bug fixes only.
+
+v0.2.0
+
+
+
+
+v1.0.0
+
+Stable version.
+
+
+
+
+
+
+
