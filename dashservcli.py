@@ -1,10 +1,15 @@
 """DashServCMD v0.1.0-alpha
-Usage:
-    dashserv.py web-gui start
-    dashserv.py <app_name config
-    dashserv.py <app_name> start
-    dashserv.py <app_name> stop
-    dashserv.py <app_name> remove
+Usage: dashservcmd <command> [options]
+
+Commands:
+
+    install <app_name>
+    list <app_name>
+    configure <app_name
+    uninstall <app_name>
+    start <app_name>
+    stop <app_name>
+
 
 Arguments:
 

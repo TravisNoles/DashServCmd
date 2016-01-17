@@ -1,0 +1,8 @@
+#Loaded applications, set the app to false and it won't be loaded (or accessible)
+general:
+    debug: True #Show or hide debug messages.
+    interface: gui #gui / cli
+
+#Application Tracking (True = Running, False = !Running)
+applications:
+  hello_world: False

@@ -1,30 +1,24 @@
 #Manages all applications.
 import json
+import yaml
+import docker
 
-class application:
+class applications:
     """Manages applications, starts/stops/pauses apps,
     returns results in json format. """
 
-    def __init__(self, name):
+    def __init__(self, name, description, files):
         self.name = name
-        self.running = False
-        self.enabled = False
-        self.result =
-        {
-            "result_code": 0
-            "message": "Unknown Error",
-            "details": "default_error",
-        }
+        self.description = description
+        self.files = files
 
-
-    def update(self, name):
-        """Updates application."""
+    #Define getter/setters here.
 
 
 
-        return results
 
-    def install(self, name):
+    #Install the application, based on __init_parameters (declare new instance.)
+    def install(self):
         """ Attempts to run the application with provided docker file,
         sets/gets settings from configuration file, runs commands inside
         container, prepares application container for first use. Runs app's
@@ -33,17 +27,32 @@ class application:
         file. If there is any errors while running this command it will display
         to the user depending on the error.
 
-        Arguments: name = app_name
+        Arguments: name - App name
         """
 
-
         #Read (parse) application config file.
+        with open('name', 'r') as f:
+            app_config = yaml.load(f)
 
 
-        # Set settings and run docker file.
+        # Load Settings
+        app_config['']
+
+        # Run Dockerfile
+
+            return result
 
 
-        return result
+
+    def check_update(self, name):
+        """Checks for application updates."""
+
+        # Read app url from package file.
+
+
+        return self.result
+
+
 
 
 
@@ -72,3 +81,7 @@ class application:
 
 
         return result
+
+
+
+applications.install("test", "test2")

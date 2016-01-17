@@ -1,0 +1,18 @@
+# Hello World DashServCmd
+# [Options commented are not implemented yet.]
+
+app:
+  meta:
+    name: "hello_world"
+    version: "v0.1.0"
+    description: "Hello World application for dashservcmd."
+    url: "https://github.com/travisnoles/dashservcmd/apps/hello_world"
+    author: ["Travis Noles", "travis.noles.pw"]
+
+  settings:
+    networking:
+      #ip_address: 127.0.0.1
+      #type: "public" #public/private
+      hostname: default #By default, hostname is set to app name.
+      host_port: 8081
+      guest_port: 8082

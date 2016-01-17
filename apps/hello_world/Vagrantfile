@@ -1,0 +1,22 @@
+#DashServCmd Hello World Vagrantfile
+Vagrant.configure("2") do |config|
+  config.vm.provision "docker",
+    images: ["phusion/baseimage:0.9.18"]
+
+  config.vm.provider "docker" do |docker|
+    docker.vagrant_vagrantfile = "Vagrantfile"
+    docker.image = "phusion/baseimage:0.9.18"
+    docker.ports = ['8081:8081']
+    docker.name = 'hello_world'
+  end
+
+  # Upgrade Container OS
+  #RUN apt-get update && apt-get upgrade -y -o Dpkg::Options::="--force-confold"
+  #RUN apt-get
+
+  #Environmental Variables
+  #RUN echo Apachai Hopachai > /etc/container_environment/MY_NAME
+  #/etc/container_environment.json - a dump of the environment variables in JSON format.
+
+
+end
